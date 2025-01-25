@@ -41,12 +41,49 @@
 
 ### Setting Up `secrets.toml`
 Before running the app, create a `.streamlit/secrets.toml` file in the project directory and add your Hugging Face API token:
-    ```toml
-    # .streamlit/secrets.toml
+    
     HUGGINGFACEHUB_API_TOKEN = "your_api_token"
 
 ### Running the App
 Start the Streamlit app with the following command:
-    ```bash
+    
     streamlit run app.py
 
+---
+
+## Usage
+  1. **Select a Model**: Use the dropdown menu to choose one of the pre-trained language models.
+  2. **Configure Parameters**:
+     - Adjust the **Max Tokens** slider to set the desired length of the generated text.
+     - Set the **Temperature slider** to control the creativity of responses.
+  3. **Input Prompt**: Enter a prompt in the text area, e.g., "Write a short story about hobbits."
+  4. **Generate Text**: Click the "Generate Text" button to see the AI's response.
+
+
+## Key Learnings
+  - Experiment with different temperature and max token settings to fine-tune the balance between creativity and coherence in responses.
+  - Use prompt engineering to improve the relevance and quality of generated outputs.
+
+
+
+## Future Enhancements
+  - Add more pre-trained models to the dropdown list.
+  - Include additional configurable parameters like top_p and repetition_penalty.
+  - Enable user-uploaded custom prompts for advanced use cases.
+
+
+
+## Contributing
+Contributions are welcome! Fork this repository, make changes, and submit a pull request. For major updates, open an issue to discuss your ideas.
+
+
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+
+## Acknowledgments
+  - Hugging Face: For providing accessible APIs and powerful pre-trained models.
+  - Streamlit: For creating an intuitive framework for building web applications.
+  - The open-source community for inspiration and tools.
