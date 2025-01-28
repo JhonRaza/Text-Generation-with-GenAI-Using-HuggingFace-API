@@ -1,7 +1,7 @@
-# Generative AI Playground
+# Text Generation using Hugging Face's model APIs
 
 ## Overview
-**Generative AI Playground** is a user-friendly web application built with Streamlit, designed to demonstrate text generation using pre-trained language models from Hugging Face. Users can experiment with various models, configure generation settings, and experience the magic of AI-driven text generation.
+This section of the **Generative AI Playground** is a user-friendly web application built with Streamlit, designed to demonstrate text generation using pre-trained language models from Hugging Face. Users can experiment with various models, configure generation settings, and experience the magic of AI-driven text generation.
 
 ---
 
