@@ -9,9 +9,9 @@ from langchain.prompts import PromptTemplate
 # App Header
 st.title("Generative AI - Simple Text Generation")
 st.markdown("""
-This section of the Generative AI Playground is a user-friendly web application built with Streamlit, designed to demonstrate text 
-            generation using pre-trained language models from Hugging Face. Users can experiment with various models, configure generation settings, and experience the magic of AI-driven text generation.
-""")
+This section of the **Generative AI Playground** app allows you to explore text generation with pre-trained language models from the Hugging Face model APIs. 
+Just type in a prompt and let AI do the magic!
+            """)
 
 # Sidebar for configuring the model
 st.sidebar.title("Model Settings")
