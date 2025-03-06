@@ -46,15 +46,16 @@ This section of the **Generative AI Playground** is a user-friendly web applicat
    ```bash
     pip install -r requirements.txt
 
-### Setting Up `secrets.toml`
-Before running the app, create a `.streamlit/secrets.toml` file in the project directory and add your Hugging Face API token:
-    
-    HUGGINGFACEHUB_API_TOKEN = "your_api_token"
-
 ### Running the App
 Start the Streamlit app with the following command:
     
     streamlit run app.py
+
+
+### Adding HuggingFace API Key
+- Open the Streamlit app.
+- Enter your Hugging Face API token in the sidebar.
+- The token will be saved automatically for your session.
 
 ---
 
